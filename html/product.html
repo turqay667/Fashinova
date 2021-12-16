@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/80c4d78725.js" crossorigin="anonymous"></script>
+<title>Fashinova.com</title>
+<link rel="stylesheet" href="Style.css">
+<link rel="stylesheet" href="product.css">
+</head>
+<section class="product-details" style="margin-top:40px">
+<div class="image-slider">
+<img src="shirt1.jpg" alt="" id="ProductImg" class="large">
+<div class="product-images">
+<img src="shirt1.jpg" class="small-img" alt="">
+<img src="shirt2.jpg" alt="" class="small-img">
+<img src="shirt3.jpg" alt="" class="small-img">
+<img src="shirt4.jpg" alt="" class="small-img">
+ </div>
+</div> 
+<div class="details">
+<h2 class="brand">calvin klein</h2>
+<p class="product-desc">This is highly fitted dress with different colours and size</p>
+<span class="pro-prize">$140</span>
+<span class=" pro-actual-prize">$70</span>
+<span class="pro-discount">50% off</span>
+<span></span><p class="pro-subheading">select colour and size</p>
+<select>
+  <option>Green</option>
+  <option>Blue</option>
+  <option>Red</option>
+</select>
+<input type="radio" name="size" value="S" checked hidden id="s-size">
+<label for="s-size" class="radio-size check">S</label>
+<input type="radio" name="size" value="m" hidden id="m-size">
+<label for="m-size" class="radio-size">m</label>
+<input type="radio" name="size" value="l" hidden id="l-size">
+<label for="l-size" class="radio-size">l</label>
+<button class="cart-btn">add to cart</button>
+<button class="btn">add to wishlist</button>
+</div> 
+
+</section>
+<section class="product">
+    <div class="products">
+    <!-- <button class="prev"><img src="prev.svg" alt=""></button>
+    <button class="next"><img src="next.svg" alt=""></button> -->
+    <div class="product-card">
+    <div class="product-image">
+    <span class="discount">50% off</span>
+    <img src="Dress1.jpg" class="thumb" alt="">
+    <button class="card-btn">add to whislist</button>
+    </div>
+    <div class="product-info">
+      <h3>Puma</h3>
+    <p class="product-desc">a short line about the cloth...</p> 
+    <span class="prize">$60</span><span class="actual-prize">$30</span>
+    </div>
+    </div>
+    <div class="product-card">
+      <div class="product-image">
+      <span class="discount">20% off</span>
+      <img src="product2.jpg" class="thumb" alt="">
+      <button class="card-btn">add to whislist</button>
+      </div>
+      <div class="product-info">
+        <h3>HRX</h3>
+      <p class="product-desc">a short line about the cloth...</p> 
+      <span class="prize">$70</span><span class="actual-prize">$35</span>
+      </div>
+      </div>
+      <div class="product-card">
+        <div class="product-image">
+        <span class="discount">30% off</span>
+        <img src="product3.jpg" class="thumb" alt="">
+        <button class="card-btn">add to whislist</button>
+        </div>
+        <div class="product-info">
+          <h3>Calvin Klein</h3>
+        <p class="product-desc">a short line about the cloth...</p> 
+        <span class="prize">$80</span><span class="actual-prize">$40</span>
+        </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+          <span class="discount">50% off</span>
+          <img src="Dress4.jpg" class="thumb" alt="">
+          <button class="card-btn">add to whislist</button>
+          </div>
+          <div class="product-info">
+            <h3>Zara</h3>
+          <p class="product-desc">a short line about the cloth...</p> 
+          <span class="prize">$90</span><span class="actual-prize">$45</span>
+          </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+            <span class="discount">40% off</span>
+            <img src="product4.jpg" class="thumb" alt="">
+            <button class="card-btn">add to whislist</button>
+            </div>
+            <div class="product-info">
+              <h3>Puma</h3>
+            <p class="product-desc">a short line about the cloth...</p> 
+            <span class="prize">$100</span><span class="actual-prize">$50</span>
+            <p class="product-heading"></p>
+
+ <nav class="navbar"></nav>
+ </body>
+ <script src="navbar.js"></script>
+ <script src="product.js"></script>
+ <script src="home.js"></script>
+ <script>
+ var ProductImg=document.getElementById("ProductImg")
+    var SmallImg=document.getElementsByClassName("small-img")
+    SmallImg[0].onclick=function(){
+        ProductImg.src=SmallImg[0].src;
+    }
+    SmallImg[1].onclick=function(){
+        ProductImg.src=SmallImg[1].src;
+    }
+    SmallImg[2].onclick=function(){
+        ProductImg.src=SmallImg[2].src;
+    }
+    SmallImg[3].onclick=function(){
+        ProductImg.src=SmallImg[3].src;
+    }
+  </script>

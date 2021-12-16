@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="details.css">
+<body>
+<div class="small-container single-product">
+<div class="row">
+<div class="col-2">
+ <img src="shirt1.jpg"  width="100%" id="ProductImg">
+
+ <div class="small-img-row">
+<div class="small-ing-col">
+<img src="shirt1.jpg"  width="100%" class="small-img"> 
+</div>
+<div class="small-ing-col">
+    <img src="shirt2.jpg"  width="100%" class="small-img"> 
+ </div>
+ <div class="small-ing-col">
+    <img src="shirt3.jpg"  width="100%" class="small-img"> 
+    </div>
+    <div class="small-ing-col">
+        <img src="shirt4.jpg"  width="100%" class="small-img"> 
+        </div>
+        </div>
+ <div class="col-2">
+<p>Home / T-shirt</p>
+<h1>Red Printed T-Shirt by HRX</h1>
+<h4>$50</h4>
+<select>
+    <option>red</option>
+    <option>green</option>
+    <option>blue</option>
+</select>
+<input type="number" value="1">
+<a href="" class="btn">Add to Cart</a>
+<h3>Product Details</h3>
+<p>Give your summer wardrobe a style with the DTF Men`s Active T-shirt.There is with a pair of shorts for your morning workout or a denims for an evening out with with the guys.</p>
+</div>
+</div>
+</div>
+</body>
+<script>
+    var ProductImg=document.getElementById("ProductImg")
+    var SmallImg=document.getElementsByClassName("small-img")
+    SmallImg[0].onclick=function(){
+        ProductImg.src=SmallImg[0].src;
+    }
+    SmallImg[1].onclick=function(){
+        ProductImg.src=SmallImg[1].src;
+    }
+    SmallImg[2].onclick=function(){
+        ProductImg.src=SmallImg[2].src;
+    }
+    SmallImg[3].onclick=function(){
+        ProductImg.src=SmallImg[3].src;
+    }
+</script>
+
+
